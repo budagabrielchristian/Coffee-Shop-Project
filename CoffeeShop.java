@@ -35,7 +35,7 @@ public class CoffeeShop {
 	}
 	
 	protected String getPrice() {
-		return "The price for a "+this.nameOfProduct+": "+this.price+'';
+		return "The price for a "+this.nameOfProduct+": "+this.price+' ';
 	}
 	protected String getMilk() {
 		if(hasMilk==true) {
@@ -57,7 +57,7 @@ public class CoffeeShop {
 		}else if(hasMilk==false){
 			System.out.println("Does not contain Milk;");
 		}
-		}else if(nameOfProduct=="Milk Tea"){
+	}else if(nameOfProduct=="Milk Tea"){
 			if(hasMilk==true){
 				 System.out.println("Contains Milk;");
 				}else if(hasMilk==false){

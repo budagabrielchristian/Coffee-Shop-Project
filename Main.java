@@ -1,4 +1,4 @@
-public class blin{
+public class Main{
 
     public static void main(String[] args) {
 
@@ -9,6 +9,8 @@ public class blin{
     	s1.printData();
     	s1.deliverSweet(20);
     	s1.printData();
+    	
     	System.out.println(s1.getSweets());
+    	
     }
 } 
